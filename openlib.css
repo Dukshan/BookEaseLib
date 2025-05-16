@@ -1,0 +1,257 @@
+            /* header*/
+            
+            .logo_wid {
+                width: 85%;
+            }
+            
+            .head_bg {
+                background-color: aliceblue;
+            }
+            
+            .btn {
+                background-color: rgba(156, 152, 152, 0.739);
+                border: none;
+                color: #fff;
+            }
+            
+            .btn:hover {
+                background-color: #c5375a;
+                color: #fff;
+                border: none;
+            }
+            
+            .head_links {
+                background-color: rgba(156, 152, 152, 0.739);
+                text-decoration: none;
+                border: none;
+                padding: 6px 9px;
+                border-radius: 3px;
+            }
+            
+            .head_links:hover,
+            .head_links a:hover {
+                background-color: #c5375a;
+                color: #fff;
+            }
+            
+            .head_micon {
+                padding: 3px 4px;
+                margin: 6px;
+                background-color: #cfcccc;
+                border: 1px solid rgb(196, 196, 196);
+                border-radius: 6px;
+            }
+            
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+            
+            .txts {
+                text-align: start;
+            }
+            
+            .jcc {
+                justify-content: center;
+            }
+            
+            .txte {
+                text-align: end;
+            }
+            
+            .aic {
+                align-items: center;
+            }
+            
+            .txtr {
+                text-align: right;
+            }
+            
+            .dhide {
+                display: none;
+            }
+            
+            .dblock {
+                display: block;
+            }
+            /* carousel */
+            
+            .carousel-item img {
+                height: 350px;
+            }
+            /*end carousel */
+            /* genre */
+            
+            .card-title {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 20px;
+            }
+            
+            .card-img {
+                opacity: 0.7;
+            }
+            /* end genre */
+            /* books */
+            
+            .owl_img {
+                height: 270px;
+                width: 200px !important;
+            }
+            /* books */
+            /*trending book */
+            
+            .pop_img {
+                height: 264px;
+                width: 191px;
+            }
+            /* margin */
+            
+            .mrg {
+                margin-top: 75px;
+                margin-bottom: 75px;
+            }
+            /* margin */
+            /* footer */
+            
+            .footer_1 {
+                background-color: #c5375a;
+                padding: 60px 0;
+            }
+            
+            .wht {
+                color: rgba(255, 255, 255, 0.591);
+            }
+            
+            .footer_link li,
+            a {
+                list-style: none;
+                color: rgba(255, 255, 255, 0.903);
+            }
+            
+            .footer_link {
+                padding-left: 0%;
+            }
+            
+            @media screen and (max-width: 1140px) {
+                .container {
+                    max-width: 1395px;
+                }
+            }
+            
+            @media screen and (max-width: 768px) {
+                .mhide {
+                    display: none;
+                }
+                .mblock {
+                    display: block;
+                }
+            }
+            
+            @media only screen and (max-width: 576px) {
+                .card {
+                    margin-bottom: 8px;
+                }
+                .owl_img {
+                    width: 300px !important;
+                    height: 350px;
+                }
+                .pop_img {
+                    width: 300px;
+                    height: 350px;
+                    margin-bottom: 10px;
+                }
+                .carousel-item img {
+                    height: 200px;
+                }
+                .carousel-caption,
+                h2 {
+                    font-size: 18px !important;
+                }
+            }
+            
+            .cont_card {
+                background-color: #2a2c2c76;
+                color: #4b4848;
+                padding: 4rem;
+                border-radius: 0.5rem;
+            }
+            
+            .cont_input {
+                padding: 0.7rem;
+                border-radius: 0.5rem;
+                border: none;
+                margin-top: 0.3rem !important;
+                width: 100%;
+                background-color: #ffffff38;
+            }
+            
+            .cont_input::placeholder,
+            .cont_textarea::placeholder {
+                color: rgba(221, 220, 220, 0.591);
+            }
+            
+            .lbl {
+                color: #ebf0edd9;
+                font-size: 1rem;
+            }
+            
+            .cont_email {
+                padding: 0.7rem 0rem 0.7rem 0.7rem;
+            }
+            
+            .cont_textarea {
+                border-radius: 0.5rem;
+                border: none;
+                width: 100%;
+                padding: 0.7rem;
+                background-color: #ffffff38;
+            }
+            
+            .cont_btn {
+                background-color: #f85959e4 !important;
+                border: none;
+                color: #fff;
+                padding: 0.5rem;
+                margin: 1rem 0rem;
+            }
+            
+            .cont_btn:hover {
+                background-color: rgba(0, 0, 0, 0.747) !important;
+                color: rgba(255, 255, 255, 0.87);
+            }
+            
+            .cont_input:focus,
+            textarea:focus {
+                outline: none;
+            }
+            
+            .cont_icon {
+                padding: 0rem 0.5rem;
+            }
+            
+            @media only screen and (max-width: 576px) {
+                .cont_content {
+                    padding: 3rem 2rem;
+                }
+                .mt {
+                    margin-top: 2rem;
+                }
+                .cont_card {
+                    padding: 1.5rem;
+                }
+                .cont_input {
+                    width: 100%;
+                }
+                .pzero {
+                    padding: 0;
+                }
+                .cont_textarea {
+                    width: inherit;
+                }
+                .pd {
+                    padding: 0rem 0.5rem;
+                }
+            }
